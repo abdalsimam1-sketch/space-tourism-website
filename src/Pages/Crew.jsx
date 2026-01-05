@@ -17,7 +17,7 @@ export const Crew = () => {
 
   return (
     <>
-      <div className="crew-page p-3">
+      <div className="crew-page ">
         <header>
           <Navbar></Navbar>
         </header>

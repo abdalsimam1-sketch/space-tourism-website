@@ -18,7 +18,7 @@ export const Destination = () => {
   const [activeDestination, setActiveDestination] = useState(destinations[0]);
   return (
     <>
-      <div className="destination-page p-3 text-white">
+      <div className="destination-page  text-white">
         <header>
           <Navbar></Navbar>
         </header>

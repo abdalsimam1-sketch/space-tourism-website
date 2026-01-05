@@ -8,7 +8,7 @@ export const Technology = () => {
 
   return (
     <>
-      <div className="tech-page p-3 text-white ">
+      <div className="tech-page  text-white ">
         <Navbar></Navbar>
         <section className="d-flex justify-content-center">
           <h2>
