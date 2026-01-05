@@ -18,38 +18,30 @@ export const Destination = () => {
   const [activeDestination, setActiveDestination] = useState(destinations[0]);
   return (
     <>
-      <div className="destination-page p-3">
+      <div className="destination-page p-3 text-white">
         <header>
           <Navbar></Navbar>
         </header>
-        <section className="text-white">
-          <h4>
-            <span className="text-muted">01</span>
+        <section className=" d-flex justify-content-center">
+          <h2>
+            <span className="text-tertiary me-2">01</span>
             PICK YOUR DESTINATION
-          </h4>
+          </h2>
         </section>
 
-        <div
-          className="main-content-section d-flex flex-column flex-lg-row gap-3 p-5"
-          style={{ border: "2px solid white" }}
-        >
-          <div
-            className="destination-img col-12 col-lg-6 d-flex justify-content-center"
-            style={{ border: "2px solid white" }}
-          >
+        <div className="main-content-section d-flex flex-column flex-lg-row gap-3 p-5">
+          <div className="destination-img col-12 col-lg-6 d-flex justify-content-center">
             <img
               className="img-fluid"
               src={imageMap[activeDestination.name]}
               alt={activeDestination.name}
             />
           </div>
-          <div
-            className="buttons-info col-12 col-lg-4 "
-            style={{ border: "2px solid white" }}
-          >
-            <div className="buttons d-flex justify-content-around">
+          <div className="buttons-info col-12 col-lg-4 ">
+            <div className="buttons d-flex ">
               {destinations.map((destination) => (
                 <button
+                  className="btn btn-outline-tertiary text-white buttons"
                   onClick={() => setActiveDestination(destination)}
                   key={destination.name}
                 >
@@ -58,10 +50,10 @@ export const Destination = () => {
               ))}
             </div>
             <div className="info">
-              <h1>{activeDestination.name}</h1>
+              <p style={{ fontSize: "6rem" }}>{activeDestination.name}</p>
               <p>{activeDestination.description}</p>
               <hr />
-              <table style={{ width: "70%" }}>
+              <table style={{ width: "100%" }}>
                 <thead>
                   <tr>
                     <th>AVG. DISTANCE</th>
