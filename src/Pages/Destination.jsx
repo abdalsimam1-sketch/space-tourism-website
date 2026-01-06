@@ -24,7 +24,7 @@ export const Destination = () => {
         </header>
         <section className=" d-flex justify-content-center">
           <h2>
-            <span className="text-tertiary me-2">01</span>
+            <span className="text-secondary me-2">01</span>
             PICK YOUR DESTINATION
           </h2>
         </section>
