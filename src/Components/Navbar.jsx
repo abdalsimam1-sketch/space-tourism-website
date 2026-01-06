@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/shared/logo.svg";
+import Logo from "../../public/assets/shared/logo.svg";
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="text-capitalize p-5">
       <div className="d-flex  justify-content-between">
         <Link to="/">
-          <img src={Logo} alt="logo.svg" className="mb-2" />
+          <img src={Logo} alt="logo.svg" className="mb-5" />
         </Link>
         <i
           onClick={() => setIsOpen(!isOpen)}

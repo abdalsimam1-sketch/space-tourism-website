@@ -12,7 +12,7 @@ export const Technology = () => {
         <Navbar></Navbar>
         <section className="d-flex justify-content-center">
           <h2>
-            <span className="text-secondary me-4">01</span>
+            <span className="text-secondary me-4">03</span>
             SPACE LAUNCH 101
           </h2>
         </section>
@@ -42,7 +42,7 @@ export const Technology = () => {
             {" "}
             <img
               className="img-fluid"
-              src={new URL(activeTech.images.portrait, import.meta.url).href}
+              src={activeTech.images.portrait}
               alt={activeTech.name + " image "}
             />
           </div>

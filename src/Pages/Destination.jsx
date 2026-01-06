@@ -1,9 +1,9 @@
 import React, { act, useState } from "react";
 import data from "../data.json";
-import moon from "../assets/destination/image-moon.png";
-import mars from "../assets/destination/image-mars.png";
-import europa from "../assets/destination/image-europa.png";
-import titan from "../assets/destination/image-titan.png";
+import moon from "../../public/assets/destination/image-moon.png";
+import mars from "../../public/assets/destination/image-mars.png";
+import europa from "../../public/assets/destination/image-europa.png";
+import titan from "../../public/assets/destination/image-titan.png";
 import { Navbar } from "../Components/Navbar";
 
 const destinations = data.destinations;

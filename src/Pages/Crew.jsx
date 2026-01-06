@@ -36,7 +36,7 @@ export const Crew = () => {
           <div className="crew-img col-12 col-lg-6">
             <img
               className="img-fluid"
-              src={new URL(activeCrew.images.png, import.meta.url).href}
+              src={activeCrew.images.png}
               alt={activeCrew.name + " image"}
             />
           </div>
