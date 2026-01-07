@@ -8,8 +8,7 @@ export const Technology = () => {
 
   return (
     <>
-      <div className="tech-page  text-white ">
-        <Navbar></Navbar>
+      <div className="tech-page  text-white pt-5 " id="technology">
         <section className="d-flex justify-content-center">
           <h2>
             <span className="text-secondary me-4">03</span>

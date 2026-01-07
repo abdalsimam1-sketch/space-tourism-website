@@ -18,10 +18,7 @@ export const Destination = () => {
   const [activeDestination, setActiveDestination] = useState(destinations[0]);
   return (
     <>
-      <div className="destination-page  text-white">
-        <header>
-          <Navbar></Navbar>
-        </header>
+      <div className="destination-page  text-white pt-5" id="destination">
         <section className=" d-flex justify-content-center">
           <h2>
             <span className="text-secondary me-2">01</span>

@@ -17,11 +17,8 @@ export const Crew = () => {
 
   return (
     <>
-      <div className="crew-page ">
-        <header>
-          <Navbar></Navbar>
-        </header>
-        <section className="text-white  d-flex justify-content-center">
+      <div className="crew-page pt-5 " id="crew">
+        <section className="text-white  d-flex justify-content-center ">
           <h2>
             {" "}
             <span className="text-secondary me-3">02 </span> MEET YOUR CREW

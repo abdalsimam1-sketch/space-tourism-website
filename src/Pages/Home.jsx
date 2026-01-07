@@ -3,7 +3,7 @@ import { Navbar } from "../Components/Navbar";
 
 export const Home = () => {
   return (
-    <div className="home-page  ">
+    <div className="home-page text-center " id="home">
       <Navbar></Navbar>
       <div className="home-content p-5 d-flex flex-column flex-lg-row gap-4 justify-content-around">
         <div className="left col-12 col-lg-6 text-white d-flex flex-column justify-content-center">
